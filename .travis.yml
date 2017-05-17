@@ -1,0 +1,9 @@
+language: php
+php:
+  - '5.5'
+  - '5.6'
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "c3b03bca-b499-467b-9617-22a9a0d075a8"  
