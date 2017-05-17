@@ -3,4 +3,7 @@ language: php
 deploy:
   provider: heroku
   api_key: "c3b03bca-b499-467b-9617-22a9a0d075a8"
-  app: travi  
+  app: travi
+
+script: phpunit --version
+  
